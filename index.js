@@ -1,6 +1,5 @@
 const imageSize = require('image-size');
 const imagizer = require('imagizer');
-const looksSame = require('looks-same');
 
 /*
     BEGIN CHANGABLE VARIABLES
