@@ -1,0 +1,14 @@
+{
+  "name": "image-grid-exporter",
+  "version": "1.0.0",
+  "description": "Export multiple grid cells from a png",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imagizer": "^0.4.4"
+  }
+}
