@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "imagizer": "^0.4.4"
+    "image-size": "^1.0.1",
+    "imagizer": "^0.4.4",
+    "looks-same": "^7.3.0"
   }
 }
