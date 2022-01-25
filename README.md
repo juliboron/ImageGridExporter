@@ -9,16 +9,6 @@ To install the required modules you will need to run the following commands in y
 npm install imagizer
 npm install image-size
 ```
-## Modifying the variables
-
-
-After that you will need **modify the index.js file** to your desired grid size.
-The variables are located on line 9 through 11:
-```
-//SET YOUR GRID LAYOUT
-const gridHeight = 24;
-const gridWidth = 24;
-```
 ## Executing the code
 To export grid cells from a PNG you need to move your picture to extract from in the "imgIN" folder.
 
