@@ -1,13 +1,14 @@
 const imageSize = require('image-size');
 const imagizer = require('imagizer');
+const myArgs = process.argv.slice(2);
 
 /*
     BEGIN CHANGABLE VARIABLES
 */
 
 //SET YOUR GRID LAYOUT
-const gridHeight = 24;
-const gridWidth = 24;
+const gridHeight = parseInt(myArgs[0]);
+const gridWidth = parseInt(myArgs[1]);
 
 /*
     END CHANGABLE VARIABLES
